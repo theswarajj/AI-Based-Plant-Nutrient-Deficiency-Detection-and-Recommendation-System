@@ -1,0 +1,112 @@
+{
+  "config": {
+    "n_folds": 5,
+    "epochs_head": 10,
+    "epochs_fine": 25,
+    "lr_fine": 5e-05,
+    "unfreeze_last_blocks": 4,
+    "sampler_power": 0.5,
+    "tta": true,
+    "seed": 42
+  },
+  "classes": [
+    "Healthy",
+    "Nitrogen",
+    "Nitrogen_Potassium",
+    "Potassium"
+  ],
+  "folds": [
+    {
+      "fold": 1,
+      "heldout_acc": 0.6825396825396826,
+      "heldout_macro_f1": 0.676473354231975,
+      "single_model_test_acc": 0.6607142857142857
+    },
+    {
+      "fold": 2,
+      "heldout_acc": 0.746031746031746,
+      "heldout_macro_f1": 0.744211265884653,
+      "single_model_test_acc": 0.5892857142857143
+    },
+    {
+      "fold": 3,
+      "heldout_acc": 0.6507936507936508,
+      "heldout_macro_f1": 0.6602695132106896,
+      "single_model_test_acc": 0.625
+    },
+    {
+      "fold": 4,
+      "heldout_acc": 0.6612903225806451,
+      "heldout_macro_f1": 0.67001332001332,
+      "single_model_test_acc": 0.6428571428571429
+    },
+    {
+      "fold": 5,
+      "heldout_acc": 0.6774193548387096,
+      "heldout_macro_f1": 0.6667724867724868,
+      "single_model_test_acc": 0.6071428571428571
+    }
+  ],
+  "oof": {
+    "n_images": 313,
+    "accuracy": 0.6837060702875399,
+    "macro_f1": 0.6831592058846048,
+    "confusion_matrix": [
+      [
+        57,
+        11,
+        2,
+        7
+      ],
+      [
+        5,
+        46,
+        6,
+        0
+      ],
+      [
+        10,
+        12,
+        42,
+        26
+      ],
+      [
+        5,
+        1,
+        14,
+        69
+      ]
+    ]
+  },
+  "ensemble_test": {
+    "n_images": 56,
+    "accuracy": 0.6607142857142857,
+    "macro_f1": 0.648849898849899,
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        2,
+        2
+      ],
+      [
+        1,
+        7,
+        1,
+        1
+      ],
+      [
+        2,
+        4,
+        6,
+        4
+      ],
+      [
+        0,
+        1,
+        1,
+        14
+      ]
+    ]
+  }
+}

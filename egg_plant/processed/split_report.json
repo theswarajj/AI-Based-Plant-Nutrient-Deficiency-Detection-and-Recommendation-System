@@ -1,0 +1,36 @@
+{
+  "crop": "eggplant",
+  "image_size": 384,
+  "readable": 371,
+  "corrupt": [],
+  "exact_duplicates_removed": 0,
+  "label_conflicts_dropped": 2,
+  "near_duplicate_pairs": 0,
+  "excluded_non_nutrient_folders": [
+    "eggplant__EB",
+    "eggplant__FB",
+    "eggplant__JAS",
+    "eggplant__MIT",
+    "eggplant__MIT_EB"
+  ],
+  "split_counts": {
+    "train": {
+      "Healthy": 63,
+      "Potassium": 73,
+      "Nitrogen": 47,
+      "Nitrogen_Potassium": 74
+    },
+    "val": {
+      "Healthy": 14,
+      "Potassium": 16,
+      "Nitrogen": 10,
+      "Nitrogen_Potassium": 16
+    },
+    "test": {
+      "Healthy": 14,
+      "Potassium": 16,
+      "Nitrogen": 10,
+      "Nitrogen_Potassium": 16
+    }
+  }
+}

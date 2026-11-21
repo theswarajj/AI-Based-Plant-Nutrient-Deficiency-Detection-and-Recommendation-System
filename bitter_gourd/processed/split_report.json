@@ -1,0 +1,39 @@
+{
+  "image_size": 384,
+  "readable": 667,
+  "corrupt": [],
+  "exact_duplicates_removed": 0,
+  "label_conflicts_dropped": 0,
+  "near_duplicate_pairs": 1,
+  "excluded_non_nutrient_folders": [
+    "bitter_gourd__DM",
+    "bitter_gourd__JAS",
+    "bitter_gourd__LS"
+  ],
+  "split_counts": {
+    "train": {
+      "Healthy": 126,
+      "Potassium": 38,
+      "Potassium_Magnesium": 28,
+      "Nitrogen": 103,
+      "Nitrogen_Potassium": 89,
+      "Nitrogen_Magnesium": 80
+    },
+    "val": {
+      "Healthy": 28,
+      "Potassium": 9,
+      "Potassium_Magnesium": 6,
+      "Nitrogen": 22,
+      "Nitrogen_Potassium": 20,
+      "Nitrogen_Magnesium": 18
+    },
+    "test": {
+      "Healthy": 27,
+      "Potassium": 8,
+      "Potassium_Magnesium": 6,
+      "Nitrogen": 22,
+      "Nitrogen_Potassium": 19,
+      "Nitrogen_Magnesium": 18
+    }
+  }
+}

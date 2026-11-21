@@ -1,0 +1,20 @@
+Banana Prediction Summary
+============================================================
+Total images processed: 1
+============================================================
+
+Image: b_2.jpg
+Prediction ranking:
+  Boron                  97.8%
+  Potassium              1.6%
+  Zinc                   0.4%
+  Magnesium              0.1%
+  Healthy                0.1%
+  Iron                   0.1%
+  Calcium                0.0%
+  Sulphur                0.0%
+
+>> Predicted class: Boron  (confidence: 97.8%)
+   Note: Manganese deficiency was excluded from training (only 16 sample images) - this model cannot detect it.
+No warning - this prediction looks reliable.
+Dashboard: C:\Users\swrjk\OneDrive\Desktop\jyothika\S1\OUTPUT\banana\b_2_dashboard.png

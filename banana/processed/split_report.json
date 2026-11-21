@@ -1,0 +1,43 @@
+{
+  "image_size": 384,
+  "readable": 3100,
+  "corrupt": [],
+  "exact_duplicates_removed": 7,
+  "label_conflicts_dropped": 86,
+  "near_duplicate_pairs": 12,
+  "split_counts": {
+    "train": {
+      "Boron": 70,
+      "Calcium": 293,
+      "Healthy": 663,
+      "Iron": 58,
+      "Magnesium": 98,
+      "Manganese": 16,
+      "Potassium": 140,
+      "Sulphur": 486,
+      "Zinc": 276
+    },
+    "val": {
+      "Boron": 15,
+      "Calcium": 63,
+      "Healthy": 142,
+      "Iron": 13,
+      "Magnesium": 22,
+      "Manganese": 4,
+      "Potassium": 31,
+      "Sulphur": 105,
+      "Zinc": 59
+    },
+    "test": {
+      "Boron": 15,
+      "Calcium": 63,
+      "Healthy": 142,
+      "Iron": 13,
+      "Magnesium": 22,
+      "Manganese": 4,
+      "Potassium": 31,
+      "Sulphur": 104,
+      "Zinc": 59
+    }
+  }
+}

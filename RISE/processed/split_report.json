@@ -1,0 +1,25 @@
+{
+  "image_size": 384,
+  "readable": 1156,
+  "corrupt": [],
+  "exact_duplicates_removed": 0,
+  "label_conflicts_dropped": 0,
+  "near_duplicate_pairs": 9,
+  "split_counts": {
+    "train": {
+      "Nitrogen": 308,
+      "Phosphorus": 233,
+      "Potassium": 267
+    },
+    "val": {
+      "Nitrogen": 66,
+      "Phosphorus": 50,
+      "Potassium": 58
+    },
+    "test": {
+      "Nitrogen": 66,
+      "Phosphorus": 50,
+      "Potassium": 58
+    }
+  }
+}

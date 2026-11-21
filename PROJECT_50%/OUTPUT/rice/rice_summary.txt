@@ -1,0 +1,15 @@
+Rice Prediction Summary
+============================================================
+Total images processed: 1
+============================================================
+
+Image: IMG_3785.JPG
+Prediction ranking:
+  Potassium              86.6%
+  Phosphorus             12.5%
+  Nitrogen               0.9%
+
+>> Predicted class: Potassium  (confidence: 86.6%)
+   Note: this rice model has no 'Healthy' class - it always predicts a deficiency, even for a healthy leaf.
+No warning - this prediction looks reliable.
+Dashboard: C:\Users\swrjk\OneDrive\Desktop\jyothika\S1\OUTPUT\rice\IMG_3785_dashboard.png

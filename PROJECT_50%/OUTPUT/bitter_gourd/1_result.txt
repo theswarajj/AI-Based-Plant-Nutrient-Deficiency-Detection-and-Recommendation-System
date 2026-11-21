@@ -1,0 +1,12 @@
+Image: 1.JPG
+Prediction ranking:
+  Potassium              81.3%
+  Nitrogen               5.7%
+  Healthy                3.8%
+  Nitrogen_Potassium     3.5%
+  Potassium_Magnesium    3.5%
+  Nitrogen_Magnesium     2.1%
+
+>> Predicted class: Potassium  (confidence: 81.3%)
+No warning - this prediction looks reliable.
+Dashboard: C:\Users\swrjk\OneDrive\Desktop\jyothika\S1\OUTPUT\bitter_gourd\1_dashboard.png

@@ -1,0 +1,121 @@
+# =====================================================================
+# AI-Based Plant Nutrient Deficiency Detection & Recommendation System
+# .gitignore Configuration
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# 1. Model Weights & Checkpoints (Heavy Binaries > 50MB - Host via cloud/drive)
+# ---------------------------------------------------------------------
+*.pt
+*.pth
+*.pwf
+*.weights.h5
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.bin
+*.onnx
+*.tflite
+*.pb
+
+# Keep metadata, label dictionaries, and evaluation reports
+!**/labels.json
+!**/split_report.json
+!**/cv_report.json
+
+# ---------------------------------------------------------------------
+# 2. Large Image Datasets (Raw and Processed Splits)
+# ---------------------------------------------------------------------
+**/processed/train/
+**/processed/val/
+**/processed/test/
+**/DATASET/
+**/dataset/
+**/datasets/
+**/raw_dataset/
+**/data/
+
+# Keep sample test images for quick inference demonstration
+!PROJECT_50%/INPUT/**
+
+# Keep outputs, diagnostic dashboards, attributions, and markdown assets
+!assets/**
+!PROJECT_50%/OUTPUT/**
+
+# ---------------------------------------------------------------------
+# 3. Python Bytecode & Cache Artifacts
+# ---------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+# ---------------------------------------------------------------------
+# 4. Virtual Environments
+# ---------------------------------------------------------------------
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ---------------------------------------------------------------------
+# 5. IDE, Editors, and OS-Specific Files
+# ---------------------------------------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+
+# ---------------------------------------------------------------------
+# 6. Web / React Platform (Dual Login Portal Artifacts)
+# ---------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+coverage/
+.next/
+out/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

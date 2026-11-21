@@ -1,0 +1,13 @@
+Image: ash_gourd__healthy (3).JPG
+Prediction ranking:
+  Healthy                36.5%
+  Nitrogen               31.1%
+  Nitrogen_Potassium     16.8%
+  Potassium              5.9%
+  Potassium_Magnesium    4.8%
+  Powdery_Mildew         2.8%
+  Nitrogen_Magnesium     2.1%
+
+>> Predicted class: Healthy  (confidence: 36.5%)
+[WARNING] LOW CONFIDENCE (36.5%). The model isn't sure about this image - consider retaking the photo (better lighting, fill the frame with the leaf) or getting a second opinion.
+Dashboard: C:\Users\swrjk\OneDrive\Desktop\jyothika\S1\OUTPUT\ashgourd\ash_gourd__healthy (3)_dashboard.png

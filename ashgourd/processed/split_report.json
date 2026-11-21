@@ -1,0 +1,37 @@
+{
+  "image_size": 384,
+  "readable": 997,
+  "corrupt": [],
+  "exact_duplicates_removed": 0,
+  "label_conflicts_dropped": 0,
+  "near_duplicate_pairs": 1,
+  "split_counts": {
+    "train": {
+      "Healthy": 57,
+      "Potassium": 205,
+      "Potassium_Magnesium": 37,
+      "Nitrogen": 42,
+      "Nitrogen_Potassium": 270,
+      "Nitrogen_Magnesium": 28,
+      "Powdery_Mildew": 55
+    },
+    "val": {
+      "Healthy": 13,
+      "Potassium": 44,
+      "Potassium_Magnesium": 8,
+      "Nitrogen": 10,
+      "Nitrogen_Potassium": 58,
+      "Nitrogen_Magnesium": 7,
+      "Powdery_Mildew": 12
+    },
+    "test": {
+      "Healthy": 13,
+      "Potassium": 44,
+      "Potassium_Magnesium": 8,
+      "Nitrogen": 9,
+      "Nitrogen_Potassium": 58,
+      "Nitrogen_Magnesium": 7,
+      "Powdery_Mildew": 12
+    }
+  }
+}

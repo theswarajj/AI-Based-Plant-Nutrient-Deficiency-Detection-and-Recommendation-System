@@ -1,0 +1,112 @@
+{
+  "config": {
+    "n_folds": 5,
+    "epochs_head": 10,
+    "epochs_fine": 25,
+    "lr_fine": 1e-05,
+    "unfreeze_last_blocks": 4,
+    "sampler_power": 0.5,
+    "tta": true,
+    "seed": 42
+  },
+  "classes": [
+    "Healthy",
+    "Nitrogen",
+    "Nitrogen_Potassium",
+    "Potassium"
+  ],
+  "folds": [
+    {
+      "fold": 1,
+      "heldout_acc": 0.5396825396825397,
+      "heldout_macro_f1": 0.5156989247311828,
+      "single_model_test_acc": 0.6428571428571429
+    },
+    {
+      "fold": 2,
+      "heldout_acc": 0.6666666666666666,
+      "heldout_macro_f1": 0.6676518883415435,
+      "single_model_test_acc": 0.6428571428571429
+    },
+    {
+      "fold": 3,
+      "heldout_acc": 0.6507936507936508,
+      "heldout_macro_f1": 0.6589765690965381,
+      "single_model_test_acc": 0.5892857142857143
+    },
+    {
+      "fold": 4,
+      "heldout_acc": 0.5645161290322581,
+      "heldout_macro_f1": 0.5618566033238915,
+      "single_model_test_acc": 0.5714285714285714
+    },
+    {
+      "fold": 5,
+      "heldout_acc": 0.6129032258064516,
+      "heldout_macro_f1": 0.5935953701470943,
+      "single_model_test_acc": 0.5714285714285714
+    }
+  ],
+  "oof": {
+    "n_images": 313,
+    "accuracy": 0.6070287539936102,
+    "macro_f1": 0.6031152257403862,
+    "confusion_matrix": [
+      [
+        53,
+        8,
+        6,
+        10
+      ],
+      [
+        11,
+        40,
+        6,
+        0
+      ],
+      [
+        14,
+        16,
+        33,
+        27
+      ],
+      [
+        10,
+        2,
+        13,
+        64
+      ]
+    ]
+  },
+  "ensemble_test": {
+    "n_images": 56,
+    "accuracy": 0.5892857142857143,
+    "macro_f1": 0.5670289855072463,
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        5,
+        1,
+        1
+      ],
+      [
+        2,
+        4,
+        5,
+        5
+      ],
+      [
+        3,
+        1,
+        0,
+        12
+      ]
+    ]
+  }
+}
